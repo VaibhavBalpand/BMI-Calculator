@@ -1,0 +1,97 @@
+/* App.css */
+
+body {  
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #fd846f, #fca1a1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #ff7e5f;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: bold;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input[type='text']:focus {
+  border-color: #ff7e5f;
+  outline: none;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button.btn {
+  background-color: #ff7e5f;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+button.btn:hover {
+  background-color: #feb47b;
+}
+
+button.btn-outline {
+  background-color: #fff;
+  color: #ff7e5f;
+  border: 1px solid #ff7e5f;
+}
+
+button.btn-outline:hover {
+  background-color: #ff7e5f;
+  color: #fff;
+}
+
+.center {
+  margin-top: 1rem;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  color: #ff7e5f;
+}
+
+p {
+  color: #777;
+  font-size: 1rem;
+}
